@@ -8,6 +8,7 @@ from twilio.jwt.access_token import AccessToken
 from twilio.jwt.access_token.grants import VideoGrant, ChatGrant
 from twilio.rest import Client
 from twilio.base.exceptions import TwilioRestException
+import webbrowser
 
 from face_rec import register_new_face, identify
 app = Flask(__name__)
@@ -32,6 +33,15 @@ def get_chatroom(name):
 @app.route('/videocall')
 def index():
     return render_template('index.html')
+
+
+@app.route("/joinvideocall")
+def joinvideocall():
+    webbrowser.open_new_tab("https://dcf7-66-180-180-23.ngrok.io/autojoin")
+
+@app.route('/autojoin')
+def autojoin():
+    return render_template('autojoin.html')
 
 
 @app.route('/login', methods=['POST'])
