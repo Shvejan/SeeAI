@@ -6,7 +6,7 @@ import numpy as np
 
 def predict_traffic_sign():
     # Define the transformations
-    image_path = 'curr_img.png'
+    image_path = 'walk1.jpg'
     transform = transforms.Compose([
         transforms.Resize(256),
         transforms.CenterCrop(224),
@@ -50,4 +50,3 @@ def predict_traffic_sign():
         return "Please Cross the Road, It's a Walk Sign"
 
 
-# print(predict_traffic_sign())
