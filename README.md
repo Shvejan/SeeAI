@@ -2,7 +2,7 @@
 
 Introducing **SeeAI** - **the revolutionary AI-powered smart sunglasses designed to enhance accessibility for the visually impaired.**
 
-![SeeAI Demo](SeeAI.png)
+![SeeAI Demo](README_DOCS/ezgif.com-video-to-gif.gif)
 <h1 align="center"> Making Accessibility a Reality </h1>
 
 
