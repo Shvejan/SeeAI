@@ -18,6 +18,8 @@ Some of the key features of SeeAI are:
 
 - Video call assistance: If the user is not confident with the instructions that the model is giving or if they require additional assistance, SeeAI's innovative design allows the user to easily make a video call to someone simply by long-pressing the button on the glasses. A live video will be streamed to another person, who can give live instructions through the call.
 
+![Demo](product_images/6.png)
+
 ## Files in the SeeAI repo:
 
 | File Name        | Description           |
@@ -41,6 +43,9 @@ Some of the key features of SeeAI are:
 - Machine Learning and AI: Powered by SOTA (State of the ART) models using Hugging Face transformers, RESNET for Image Classification, Open AI clip for converting the image to text with little information given as prompts, VIT GPT-2 for converting images to Text Captions. 
 - Twillio: For having a video conferencing solution by adding custom made tasks. Used NgRock, i.e for creating a Public IP. Main functionality of NgRock is to redirect all the calls from the IP to the local host.
 - Github: Utilized Github for code versioning, collaborating and to have the entire code structure with all the data stored in a remote place for easy accessibility and collaboration between people on the team.
+
+## **Youtube Demo Link:** https://youtu.be/eqUg8s2Vn3M
+
 
 ## Usage
 
