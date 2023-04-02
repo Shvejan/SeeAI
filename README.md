@@ -50,10 +50,4 @@ SeeAI was developed by Shashank, Kaushik, Sai Krishna, and Vikas.
 
 To use SeeAI, simply put on the smart sunglasses and interact with the device through voice commands or button presses. SeeAI will provide audio instructions based on what it sees and recognizes.
 
-## Acknowledgements
 
-We would like to thank Hugging Face for their amazing work on transformers, which formed the backbone of SeeAI's AI capabilities.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
