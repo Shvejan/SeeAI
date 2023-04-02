@@ -42,10 +42,6 @@ Some of the key features of SeeAI are:
 - Twillio: For having a video conferencing solution by adding custom made tasks. Used NgRock, i.e for creating a Public IP. Main functionality of NgRock is to redirect all the calls from the IP to the local host.
 - Github: Utilized Github for code versioning, collaborating and to have the entire code structure with all the data stored in a remote place for easy accessibility and collaboration between people on the team.
 
-## Contributors
-
-SeeAI was developed by Shashank, Kaushik, Sai Krishna, and Vikas.
-
 ## Usage
 
 To use SeeAI, simply put on the smart sunglasses and interact with the device through voice commands or button presses. SeeAI will provide audio instructions based on what it sees and recognizes.
