@@ -3,6 +3,8 @@
 Introducing SeeAI - the revolutionary AI-powered smart sunglasses designed to enhance accessibility for the visually impaired.
 
 ![SeeAI Demo](SeeAI.png)
+<h1 align="center"> Making Accessibility a Reality </h1>
+
 
 ## Features
 
@@ -14,23 +16,23 @@ Some of the key features of SeeAI are:
 - Traffic mode: SeeAI can help the visually impaired cross the road. With the Hugging Face vision transformer, the model can recognize various traffic signs like walk-sign, wait-sign, etc. and guide the user to take action accordingly.
 - Video call assistance: If the user is not confident with the instructions that the model is giving or if they require additional assistance, SeeAI's innovative design allows the user to easily make a video call to someone simply by long-pressing the button on the glasses. A live video will be streamed to another person, who can give live instructions through the call.
 
-## Files in the repo
+## Files in the SeeAI repo:
 
-The following files are included in the repository:
-
-- cassFiles
-- db
-- .gitignore
-- app.py
-- call_face_rec.py
-- cap.py
-- curr_img.png
-- face_rec.py
-- multi.png
-- multi_both.png
-- multiface.jpg
-- nb.ipynb
-- test.py
+| File Name        | Description           |
+| ----------------|-----------------------|
+| cassFiles        | Contains files related to haar cascade classifiers |
+| db               | Database of face images that are registered |
+| .gitignore       | Git ignore file for the repository |
+| app.py           | Main application file - Flask Sever Applicationn |
+| call_face_rec.py | Python module for making calls to facial recognition model |
+| cap.py           | Python module for capturing images |
+| curr_img.png     | Image frame for facial recognition |
+| face_rec.py      | Python module for facial recognition |
+| multi.png        | Example image for multi-face detection |
+| multi_both.png   | Example image for both face detection and facial recognition |
+| multiface.jpg    | Example image for multi-face detection |
+| nb.ipynb         | Jupyter Notebook for testing the facial recognition model |
+| test.py          | Python script for testing the application |
 
 ## Contributors
 
