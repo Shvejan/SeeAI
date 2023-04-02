@@ -6,7 +6,7 @@ import numpy as np
 
 def predict_traffic_sign():
     # Define the transformations
-    image_path = 'walk1.jpg'
+    image_path = './curr_img.png'
     transform = transforms.Compose([
         transforms.Resize(256),
         transforms.CenterCrop(224),
